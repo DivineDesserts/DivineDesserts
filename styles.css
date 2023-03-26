@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Roca Two;
+    src: url(font/RocaTwo.ttf);
+}
+
+body {
+    background-color: #fefef1;
+}
+
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #174929;
+    font-family: Roca Two;
+}
+
+h3 {
+    text-align: center;
+    color: #174929;
+    font-family: Roca Two; 
+}
+
+.buttondiv {
+    text-align: center;  
+    margin: auto;
+    width: 60%;
+    height: 60%;
+}
+
+.aboutus {
+    border-radius: 4px;
+    background-color: #6b8f58;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: Roca Two;
+  }
+  
+  .aboutus span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .aboutus span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .aboutus:hover span {
+    padding-right: 25px;
+  }
+  
+  .aboutus:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .menu {
+    border-radius: 4px;
+    background-color: #6b8f58;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: Roca Two;
+  }
+  
+  .menu span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .menu span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .menu:hover span {
+    padding-right: 25px;
+  }
+  
+  .menu:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+ 

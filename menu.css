@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Roca Two;
+    src: url(font/RocaTwo.ttf);
+}
+
+body {
+    background-color: #fefef1;
+}
+
+
+.menudiv {
+    font-family: Roca Two;
+    font-size: x-large;
+}
+
+h1 {
+    color: #174929;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    float: left;
+    font-size: xx-large;
+}
+
+.mangoimg {
+    height: 150px;
+    width: 150px;
+    float: left;
+    border: double;
+    border-radius: 25px;
+    border-color: #6b8f58;
+    border-width: 10px;
+}
+
+.dos {
+    text-align: right;
+    float: right;
+    font-size: xx-large;
+}
+
+.coffeeimg {
+    height: 150px;
+    width: 200px;
+    float: right;
+    border: double;
+    border-radius: 30px;
+    border-color: #6b8f58;
+    border-width: 10px;
+}
+
+
+.four {
+    text-align: left;
+    float: left;
+    font-size: xx-large;
+}
+
+.iceimg {
+    height: 150px;
+    width: 200px;
+    float: left;
+    border: double;
+    border-radius: 30px;
+    border-color: #6b8f58;
+    border-width: 10px; 
+}
+
+.buttondiv {
+    text-align: center;  
+    margin: auto;
+    width: 60%;
+    height: 60%;
+}
+
+.back {
+    border-radius: 4px;
+    background-color: #6b8f58;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: Roca Two;
+  }
+  
+  .back span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .back span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .back:hover span {
+    padding-right: 25px;
+  }
+  
+  .back:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
